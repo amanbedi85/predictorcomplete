@@ -7,25 +7,25 @@ Original file is located at
     https://colab.research.google.com/drive/1aAxhAQgxs2WlDApCY4aUCGOQTDcwYquL
 """
 
-!pip install yfinance --upgrade --no-cache-dir
-!pip install mysql-connector-python
-!pip install requests_html
-!pip install yahoo_fin
-!pip install plotly
-!pip install finplot
-!pip install technic
-!pip install matplotlib
-!pip insall keras
-!pip install sklearn
+pip install yfinance --upgrade --no-cache-dir
+pip install mysql-connector-python
+pip install requests_html
+pip install yahoo_fin
+pip install plotly
+pip install finplot
+pip install technic
+pip install matplotlib
+pip insall keras
+pip install sklearn
 import finplot as fplt
 import matplotlib.dates as mpl_dates
 import mysql.connector as mysql
 import math
 import os, sys
-!pip install --upgrade pandas-datareader
-!pip install selenium
-!apt-get update
-!apt install chromium-chromedriver
+pip install --upgrade pandas-datareader
+pip install selenium
+apt-get update
+apt install chromium-chromedriver
 from selenium import webdriver
 import pandas_datareader as pdr
 import numpy as np
