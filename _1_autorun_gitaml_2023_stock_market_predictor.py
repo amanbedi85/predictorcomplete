@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1aAxhAQgxs2WlDApCY4aUCGOQTDcwYquL
 """
 
-import yfinance as yf
+
 import os, sys
 import math
 import random
@@ -107,7 +107,7 @@ if start:
     #sp500.drop(['Open', 'High', 'Low', 'Dividends', 'Volume','Stock Splits'],axis=1,inplace=True)
     
     #sp500 = yf.Ticker(ransto)
-    sp500 = yf.Ticker("AAPL")
+    sp500 = yahoo_fin.Ticker("AAPL")
     sp500 = sp500.history(period="max")
     
     
